@@ -26,7 +26,7 @@ fun Application.configureRouting() {
             call.respondText("¡HOLA CLASE!")
         }
         // Ruta común
-        route("/alumnos") {
+        route("/students") {
             get {
                 call.respond(GestionAlumnos.getAlumnos())
             }
