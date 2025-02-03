@@ -1,4 +1,4 @@
-package com.example.model.alumno
+package com.api.model.alumno
 
 import kotlinx.serialization.Serializable
 
